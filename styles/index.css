@@ -1,3 +1,21 @@
 body {
-    background-color: DFDED8;
+    background-color: #DFDED8;
+    color: #291F1D;
+}
+
+header, footer {
+    height: 10%;
+    width: 100%;
+}
+
+main {
+
+    width: 100%;
+    /* Display */
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+section {
+    width: 100%;
 }

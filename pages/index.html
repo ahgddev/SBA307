@@ -18,73 +18,84 @@
         <img id="main_menu" src="https://img.icons8.com/ios-filled/50/291F1D/menu--v6.png" alt="menu--v6"/>
     </nav>
     <main>
-        <form action="#">
+        <form action="#" id="search_form">
             <input type="search" name="" id="search_bar">
+            <button type="submit">Search</button>
         </form>
         <section class="main_sections" id="hero">
-            <div>
-                <h2>The #1 Online Source for Bird Lovers</h2>
-                <h3>Tweet Tweet lets you easily connect and share news, photos, sightings and updates regarding your favorite birds</h3>
-                <img src="" alt="" id="hero_img">
+            <div id="website_summary">
+                <div>
+                    <h2>The #1 Online Source for Bird Lovers</h2>
+                    <h3><em>Tweet Tweet</em> lets you easily connect and share news, photos, sightings and updates regarding your favorite birds</h3>
+                </div>
+                <img src="/images/Woodpecker.jpg" alt="" id="hero_img">
             </div>
-            <div>
-                <img src="" alt="" id="hero_img">
-                <h2>From Anhingas to Zapata Wrens</h2>
-                <h3>Easily research and share information on your favorite birds</h3>
+            <div id="website_point">
+                <img src="/images/Anhinga.jpeg" alt="" id="hero_img">
+                <div>
+                    <h2>From Anhingas to Zapata Wrens</h2>
+                    <h3>Easily research and share information on your favorite birds</h3>
+                </div>
             </div>
         </section>
         <hr>
         <section class="main_sections" id="current_news">
             <h2>Current News</h2>
             <article class="news_snippet">
-                <img src="" alt="">
-                <h4 class="snippet_title"></h4>
-                <h5 class="snippet_metadata"></h5>
-                <p class="snippet_text"></p>
+                <img src="/images/penguin.jpg" alt="penguin in brush">
+                <div class="snippet_seperator">
+                    <h4 class="snippet_title">Lost Penguin found by local Student</h4>
+                    <h5 class="snippet_metadata"><time datetime="2023-09-07">Sept 7th, 2023</time> | Kathy Weathers | <p>#penguin</p> <p>#viral</p> <p>#newsflash</p> <p>#seenontiktok</p></h5>
+                    <p class="snippet_text">A penguin that had gone missing from the local zoo 2 days ago was found by a 12 year old student on Sunday morning. The lost bird was picked up and returned safely by zoo staff 3 hours after the student reported seeing the bird near ...</p>
+                </div>
             </article>
             <article class="news_snippet">
-                <img src="" alt="">
-                <h4 class="snippet_title"></h4>
-                <h5 class="snippet_metadata"></h5>
-                <p class="snippet_text"></p>
+                <img src="/images/penguin.jpg" alt="penguin in brush">
+                <div class="snippet_seperator">
+                    <h4 class="snippet_title">Lost Penguin found by local Student</h4>
+                    <h5 class="snippet_metadata"><time datetime="2023-09-07">Sept 7th, 2023</time> | Kathy Weathers | <p>#penguin</p> <p>#viral</p> <p>#newsflash</p> <p>#seenontiktok</p></h5>
+                    <p class="snippet_text">A penguin that had gone missing from the local zoo 2 days ago was found by a 12 year old student on Sunday morning. The lost bird was picked up and returned safely by zoo staff 3 hours after the student reported seeing the bird near ...</p>
+                </div>
             </article>
             <article class="news_snippet">
-                <img src="" alt="">
-                <h4 class="snippet_title"></h4>
-                <h5 class="snippet_metadata"></h5>
-                <p class="snippet_text"></p>
+                <img src="/images/penguin.jpg" alt="penguin in brush">
+                <div class="snippet_seperator">
+                    <h4 class="snippet_title">Lost Penguin found by local Student</h4>
+                    <h5 class="snippet_metadata"><time datetime="2023-09-07">Sept 7th, 2023</time> | Kathy Weathers | <p>#penguin</p> <p>#viral</p> <p>#newsflash</p> <p>#seenontiktok</p></h5>
+                    <p class="snippet_text">A penguin that had gone missing from the local zoo 2 days ago was found by a 12 year old student on Sunday morning. The lost bird was picked up and returned safely by zoo staff 3 hours after the student reported seeing the bird near ...</p>
+                </div>
             </article>
         </section>
         <hr>
         <section class="main_sections" id="updated_pages">
             <h2>Updated Bird Pages</h2>
             <article>
-                <img src="" alt="" class="updated_page_img">
-                <h3 class="updated_page_title"></h3>
-                <p class="updated_page_summary"></p>
+                <img src="/images/Zeledon's_antbird_(F).jpg" alt="" class="updated_page_img">
+                <h3 class="updated_page_title">Zeledon's Antbird (F)</h3>
+                <p class="updated_page_summary">Updated 30 minutes ago</p>
             </article>
             <article>
-                <img src="" alt="" class="updated_page_img">
-                <h3 class="updated_page_title"></h3>
-                <p class="updated_page_summary"></p>
+                <img src="/images/Zeledon's_antbird_(F).jpg" alt="" class="updated_page_img">
+                <h3 class="updated_page_title">Zeledon's Antbird (F)</h3>
+                <p class="updated_page_summary">Updated 30 minutes ago</p>
             </article>
             <article>
-                <img src="" alt="" class="updated_page_img">
-                <h3 class="updated_page_title"></h3>
-                <p class="updated_page_summary"></p>
+                <img src="/images/Zeledon's_antbird_(F).jpg" alt="" class="updated_page_img">
+                <h3 class="updated_page_title">Zeledon's Antbird (F)</h3>
+                <p class="updated_page_summary">Updated 30 minutes ago</p>
             </article>
         </section>
         <hr>
         <section class="main_sections" id="newsletter">
             <h2>Get Daily Bird Updates!</h2>
-            <p>Join thousands of bird lovers getting exciting local and national updates about our avian friends</p>
+            <p>Join thousands of bird lovers getting exciting local and national updates about our avian friends. Feel free to unsubscribe at any time (we'll miss you however!)</p>
             <div id="sent_successfully">
                 <p>Sent successfully! An confirmation email has been sent to your address.</p>
             </div>
             <form action="#">
                 <input type="text" name="" id="">
                 <input type="email" name="" id="">
-                <button type="submit"></button>
+                <button type="submit">Send me updates!</button>
             </form>
         </section>
     </main>
@@ -92,12 +103,14 @@
         <img src="https://img.icons8.com/fluency-systems-filled/96/291F1D/bird.png" class="ttlogo" alt="tweet_tweet_logo"/>
         <ul>
             <li><a href="#">About Us</a></li>
-            <li><a href="#">Contact Us</a></li>
+            <li><a href="/pages/contact_us.html">Contact Us</a></li>
             <li><a href="#">Careers</a></li>
             <li><a href="#">Privacy Policy</a></li>
         </ul>
-        <img src="https://img.icons8.com/ios-filled/50/291F1D/twitter.png" alt="twitter" class="social_media_icon"/><img src="https://img.icons8.com/ios-filled/50/291F1D/youtube-play.png" alt="youtube" class="social_media_icon"/>
-        <img src="https://img.icons8.com/ios-filled/50/291F1D/instagram-new.png" alt="instagram" class="social_media_icon"/>
+        <div id="social_media_icons">
+            <img src="https://img.icons8.com/ios-filled/96/291F1D/twitter.png" alt="twitter" class="social_media_icon"/><img src="https://img.icons8.com/ios-filled/96/291F1D/youtube-play.png" alt="youtube" class="social_media_icon"/>
+            <img src="https://img.icons8.com/ios-filled/96/291F1D/instagram-new.png" alt="instagram" class="social_media_icon"/>
+        </div>
     </footer>
 </body>
 </html>

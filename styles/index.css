@@ -42,9 +42,110 @@ main {
     align-content: center;
 }
 
+#search_form {
+
+    width: 50%;
+    align-self: center;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+#search_bar {
+    width: 70%;
+    padding-top: 2%;
+}
+
+#search_form button {
+    padding-top: 2%;
+}
+
 section {
     width: 100%;
+    display: flex;
 }
+
+/* Hero Content */
+
+#hero {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+#hero div {
+    padding: 10px;
+    margin-bottom: 2%;
+}
+
+#website_summary {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+#website_summary div{
+
+    align-self: center;
+
+}
+
+#website_summary img {
+    width: 30%;
+    height: 30%;
+    border-radius: 10px;
+}
+
+#website_point {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+#website_point div{
+    align-self: center;
+    padding-left: 5%;
+}
+
+#website_point img {
+    width: 30%;
+    height: 30%;
+    border-radius: 10px;
+}
+
+/* Current News */
+
+#current_news {
+    display: flex;
+    flex-flow: column nowrap;
+    align-content: center;
+}
+
+#current_news h2 {
+    text-align: center;
+}
+
+.news_snippet {
+    height: 20%;
+    display: flex;
+    flex-flow: row nowrap;
+    padding: 5px;
+    margin-bottom: 3%;
+}
+
+.news_snippet p {
+    display: inline;
+}
+
+.news_snippet img {
+    height: 15%;
+    width: 10%;
+    border-radius: 10px;
+}
+
+.snippet_seperator {
+    padding-left: 1%;
+}
+
+/* Updated Bird Pages */
+
+
 
 /* Footer */
 

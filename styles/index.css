@@ -8,6 +8,31 @@ header, footer {
     width: 100%;
 }
 
+/* Navigation */
+nav {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav img {
+    width: 4%;
+    height: 4%;
+}
+
+nav ul {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav li {
+    display: inline;
+}
+
+/* Body Content */
+
 main {
 
     width: 100%;
@@ -18,4 +43,13 @@ main {
 
 section {
     width: 100%;
+}
+
+/* Footer */
+
+footer {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
 }

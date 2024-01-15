@@ -33,6 +33,33 @@ nav li {
 
 /* Body Content */
 
+main {
+
+    width: 100%;
+    /* Display */
+    display: flex;
+    flex-flow: column nowrap;
+    align-content: center;
+}
+
+#search_form {
+
+    width: 50%;
+    align-self: center;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+#search_bar {
+    width: 70%;
+    padding-top: 2%;
+}
+
+#search_form button {
+    padding-top: 2%;
+}
+
+
 /* Footer */
 
 footer {

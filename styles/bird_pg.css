@@ -88,17 +88,26 @@ section {
     flex-flow: row nowrap;
     justify-content: space-around;
     align-content: center;
+    margin-top: 1%;
+    margin-bottom: 1%;
 }
 
 #info_snippet {
-    width: 50%;
+    width: 60%;
 }
 
 #bird_info_article img {
     width: 10%;
     height: 30%;
-    border-radius: 10px;
+    border-radius: 19px;
+    align-self: center;
 }
+
+#bird_info_article h2 {
+    align-self: center;
+}
+
+/* Bird Habitat Section */
 
 /* Footer */
 

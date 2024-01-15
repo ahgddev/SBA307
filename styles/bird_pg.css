@@ -17,8 +17,8 @@ nav {
 }
 
 .ttlogo {
-    width: 4%;
-    height: 4%;
+    width: 5%;
+    height: 50%;
 }
 
 nav ul {
@@ -40,6 +40,10 @@ main {
     display: flex;
     flex-flow: column nowrap;
     align-content: center;
+}
+
+main h2 {
+    text-align: center;
 }
 
 #search_form {
@@ -64,6 +68,38 @@ section {
     display: flex;
 }
 
+/* Top Data */
+
+#bird_main_info {
+    display: flex;
+    justify-content: space-around;
+}
+
+#bird_main_info img {
+    width: 30%;
+    height: 30%;
+    border-radius: 10px;
+}
+
+/* Bird Information Main Article */
+
+#bird_info_article {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-content: center;
+}
+
+#info_snippet {
+    width: 50%;
+}
+
+#bird_info_article img {
+    width: 10%;
+    height: 30%;
+    border-radius: 10px;
+}
+
 /* Footer */
 
 footer {
@@ -85,8 +121,8 @@ footer ul {
 }
 
 #social_media_icons img {
-    width: 16%;
-    height: 16%;
+    width: 15%;
+    height: 30%;
     margin-right: 3%;
 }
 

@@ -109,6 +109,35 @@ section {
 
 /* Bird Habitat Section */
 
+#bird_habitat {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+}
+
+#bird_habitat p {
+    width: 60%;
+    align-self: center;
+}
+
+#bird_habitat h2 {
+    align-self: center;
+}
+
+#habitat_map {
+    width: 30%;
+    align-self: center;
+    text-align: center;
+}
+
+#habitat_map img {
+    width: 40%;
+    height: 20%;
+    display: block;
+    margin: auto;
+    padding-bottom: 5%;
+}
+
 /* Footer */
 
 footer {

@@ -1,0 +1,91 @@
+body {
+    background-color: #DFDED8;
+    color: #291F1D;
+}
+
+header, footer {
+    height: 10%;
+    width: 100%;
+}
+
+/* Navigation */
+nav {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ttlogo {
+    width: 4%;
+    height: 4%;
+}
+
+nav ul {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav li {
+    display: inline;
+}
+
+/* Body Content */
+
+main {
+
+    width: 100%;
+    /* Display */
+    display: flex;
+    flex-flow: column nowrap;
+    align-content: center;
+}
+
+#search_form {
+
+    width: 50%;
+    align-self: center;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+#search_bar {
+    width: 70%;
+    padding-top: 2%;
+}
+
+#search_form button {
+    padding-top: 2%;
+}
+
+
+/* Footer */
+
+footer {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer ul {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+#social_media_icons {
+    width: 20%;
+}
+
+#social_media_icons img {
+    width: 16%;
+    height: 16%;
+    margin-right: 3%;
+}
+
+#social_media_icons img:first-of-type {
+    margin-left: 20%;
+}

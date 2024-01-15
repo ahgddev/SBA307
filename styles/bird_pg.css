@@ -18,7 +18,7 @@ nav {
 
 .ttlogo {
     width: 5%;
-    height: 50%;
+    height: 55%;
 }
 
 nav ul {
@@ -81,6 +81,14 @@ section {
     border-radius: 10px;
 }
 
+th {
+    text-align: left;
+}
+
+td {
+    text-align: end;
+}
+
 /* Bird Information Main Article */
 
 #bird_info_article {
@@ -127,15 +135,27 @@ section {
 #habitat_map {
     width: 30%;
     align-self: center;
-    text-align: center;
 }
 
 #habitat_map img {
-    width: 40%;
+    width: 45%;
     height: 20%;
     display: block;
     margin: auto;
-    padding-bottom: 5%;
+    border-radius: 10px;
+}
+
+#habitat_map p {
+    margin: auto;
+    text-align: center;
+    padding-top: 5%;
+}
+
+/* References */
+
+#references p {
+    display: inline;
+    margin-left: 10px;
 }
 
 /* Footer */

@@ -34,6 +34,14 @@ nav ul {
 
 nav li {
     display: inline;
+    padding: 10px;
+    border-radius: 5px;
+    transition-property: background-color;
+    transition-duration: .5s;
+}
+
+nav li:hover {
+    background-color: #828791;
 }
 
 /* Body Content */

@@ -255,10 +255,6 @@ section {
     font-family: inherit;
 }
 
-#sent_successfully {
-    display: none;
-}
-
 /* Footer */
 
 footer {
@@ -280,6 +276,13 @@ footer ul {
 footer a {
     text-decoration: none;
     color: inherit;
+    font-size: inherit;
+    transition-property: font-size;
+    transition-duration: 1s;
+}
+
+footer a:hover {
+    font-size: large;
 }
 
 footer a:visited {

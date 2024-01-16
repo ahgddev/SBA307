@@ -130,6 +130,10 @@ address {
     font-family: inherit;
 }
 
+#contact_us_area select {
+    padding-top: 10px;
+}
+
 #contact_us_area label, #contact_us_area button, #contact_us_area a {
     width: 10%;
     font-size: small;

@@ -44,6 +44,30 @@ nav li:hover {
     background-color: #828791;
 }
 
+#dropdown {
+  display: none;
+  position: absolute;
+  right: 0;
+  background-color: #ADA89E;
+  width: 160px;
+  border-radius: 5px;
+}
+
+#dropdown a {
+    display: block;
+    padding: 5%;
+    color: inherit;
+    text-decoration: none;
+}
+
+#main_menu:hover #dropdown {
+    display: block;
+}
+
+#dropdown a:hover {
+    background-color: #856955;
+}
+
 /* Body Content */
 
 main {

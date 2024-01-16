@@ -40,6 +40,11 @@ nav li {
     transition-duration: .5s;
 }
 
+nav a {
+    color: inherit;
+    text-decoration: none;
+}
+
 nav li:hover {
     background-color: #828791;
 }

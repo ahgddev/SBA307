@@ -34,45 +34,39 @@ nav ul {
 
 nav li {
     display: inline;
-}
-
-/* Body Content */
-
-main {
-
-    width: 100%;
-    /* Display */
-    display: flex;
-    flex-flow: column nowrap;
-    align-content: center;
-}
-
-#search_form {
-
-    width: 50%;
-    align-self: center;
-    margin-top: 3%;
-    margin-bottom: 3%;
-}
-
-#search_bar {
-    width: 70%;
-    border: #291F1D;
+    padding: 10px;
     border-radius: 5px;
-    line-height: 20px;
-    font-family: inherit;
+    transition-property: background-color;
+    transition-duration: .5s;
 }
 
-#search_form button {
-    width: 10%;
-    border: #291F1D;
+nav li:hover {
+    background-color: #828791;
+}
+
+#dropdown {
+  display: none;
+  position: absolute;
+  right: 0;
+  background-color: #ADA89E;
+  width: 160px;
+  border-radius: 5px;
+}
+
+#dropdown a {
+    display: block;
+    padding: 5%;
+    color: inherit;
+    text-decoration: none;
+}
+
+#main_menu:hover #dropdown {
+    display: block;
+}
+
+#dropdown a:hover {
     background-color: #856955;
-    line-height: 20px;
-    border-radius: 5px;
-    font-family: inherit;
-    text-align: center;
 }
-
 
 /* Body Content */
 

@@ -2,6 +2,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,900;1,300;1,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/styles/contact_us.css">
     <title>Contact Us!</title>
 </head>
@@ -23,26 +26,32 @@
         </form>
         <section class="main_sections" id="contact_us_area">
             <div id="physical_location_info">
-                <img src="" alt="">
-                <address></address>
+                <h2>Arizona Aviary Office</h2>
+                <img src="/images/map.jpg" alt="">
+                <address>
+                    9999 North West Wing Ave  
+                    Aviary, Arizona 85555
+                    (600) 123 - 4567
+                </address>
+                <p>Tour Times: Daily (excluding holidays) 1pm - 3pm</p>
             </div>
-                <hr>
             <form action="#">
-                <input type="text" name="" id="">
+                <h2>Contact Us</h2>
+                <input type="text" name="name_field" id="" placeholder="Your Full Name">
                 <select name="prefered_method" id="">
-                    <option value="email" selected>Email</option>
+                    <option value="" disabled selected>Prefered Method of Contact</option>
+                    <option value="email">Email</option>
                     <option value="phone">Phone</option>
                     <option value="text">Text</option>
                 </select>
-                <input type="text" name="" id="">
-                <input type="email" name="" id="">
-                <input type="tel" name="" id="">
-                <input type="text" name="" id="">
-                <textarea name="" id="" cols="30" rows="10">
-                    What's going on?
-                </textarea>
-                <label for="privacy_checkbox"></label><input type="checkbox" name="" id="privacy_checkbox"> I understand my information will be processed based on Tweet Tweet's <a href="#">Privacy Policy</a></label>
-                <button type="submit">Submit</button>
+                <input type="text" name="" id="" placeholder="Message Topic">
+                <input type="email" name="" id="" placeholder="Email">
+                <input type="tel" name="" id="" placeholder="Telephone Number">
+                <textarea name="" id="" cols="30" rows="10" placeholder="What's going on?"></textarea>
+                <div id="privacy_wrapper">
+                    <input type="checkbox" name="" id="privacy_checkbox"><label for="privacy_checkbox">I understand my information will be processed based on Tweet Tweet's <a href="#">Privacy Policy</a></label>
+                    <button type="submit">Submit</button>
+                 </div>
             </form>
         </section>
     </main>

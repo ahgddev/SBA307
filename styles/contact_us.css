@@ -1,10 +1,10 @@
 body {
     background-color: #DFDED8;
     color: #291F1D;
+    font-family: 'Merriweather', serif;
 }
 
 header, footer {
-    height: 10%;
     width: 100%;
 }
 
@@ -14,6 +14,7 @@ nav {
     flex-flow: row nowrap;
     justify-content: space-between;
     align-items: center;
+    font-weight: 900;
 }
 
 .ttlogo {
@@ -52,11 +53,103 @@ main {
 
 #search_bar {
     width: 70%;
-    padding-top: 2%;
+    border: #291F1D;
+    border-radius: 5px;
+    line-height: 30px;
+    font-family: inherit;
 }
 
 #search_form button {
-    padding-top: 2%;
+    width: 10%;
+    border: #291F1D;
+    background-color: #856955;
+    line-height: 30px;
+    border-radius: 5px;
+    font-family: inherit;
+    text-align: center;
+}
+
+
+/* Address Information */
+
+#physical_location_info {
+    margin-bottom: 5%;
+ 
+}
+
+#physical_location_info img {
+    width: 15%;
+    height: 15%;
+    margin-left: 20%;
+    border-radius: 10px;
+}
+
+#physical_location_info h2 {
+    text-align: center;
+    font-weight: 900;
+}
+
+address {
+    white-space: pre;
+    text-align: center;
+    float: right;
+    margin-right: 30%;
+    font-weight: 900;
+    font-size: 1.2em;
+}
+
+#physical_location_info p {
+    display: inline;
+    margin-top: 0;
+    text-align: center;
+    float: right;
+    margin-right: 25%;
+    font-weight: 900;
+    font-size: 1em;
+}
+
+/* Contact Form */
+
+#contact_us_area form {
+    display: flex;
+    flex-flow: column wrap;
+    width: 60%;
+    margin: auto;
+}
+
+#contact_us_area h2 {
+    text-align: center;
+    font-weight: 900;
+}
+
+#contact_us_area input, #contact_us_area select, #contact_us_area textarea {
+    margin-bottom: 2%;
+    border: #291F1D;
+    border-radius: 7px;
+    line-height: 30px;
+    font-family: inherit;
+}
+
+#contact_us_area select {
+    padding-top: 10px;
+}
+
+#contact_us_area label, #contact_us_area button, #contact_us_area a {
+    width: 10%;
+    font-size: small;
+}
+
+
+#contact_us_area button {
+    width: 15%;
+    height: 20%;
+    display: block;
+    margin-left: auto;
+    border: #291F1D;
+    background-color: #856955;
+    line-height: 30px;
+    border-radius: 10px;
+    font-family: inherit;
 }
 
 
@@ -67,6 +160,8 @@ footer {
     flex-flow: row nowrap;
     justify-content: space-between;
     align-items: center;
+    margin-top: 5%;
+    font-weight: 900;
 }
 
 footer ul {
@@ -76,13 +171,23 @@ footer ul {
     list-style-type: none;
 }
 
+footer a {
+    text-decoration: none;
+    color: inherit;
+}
+
+footer a:visited {
+    color: #828791;
+}
+
 #social_media_icons {
     width: 20%;
+    height: 100%;
 }
 
 #social_media_icons img {
-    width: 16%;
-    height: 16%;
+    width: 18%;
+    height: 18%;
     margin-right: 3%;
 }
 
